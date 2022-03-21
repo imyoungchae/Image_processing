@@ -1,4 +1,5 @@
-% 영상에 상수를 더한다
+% 영상에 상수를 곱한다
+% 곱셈 => 대비 높아진다
 function result_image = fn_multi_constant(gray_image,constant)
 
 if(constant<0||constant>255)
